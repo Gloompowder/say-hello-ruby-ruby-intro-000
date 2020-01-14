@@ -12,3 +12,10 @@ describe "say_hello" do
     say_hello()
   end
 end
+def say_hello
+  print "Hello #{name}!"
+end
+def say_hello (name="Ruby Programmer")
+  print "Hello #{name}!"
+end
+say_hello {"Gabriela"} 
